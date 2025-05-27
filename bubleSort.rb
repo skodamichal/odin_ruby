@@ -10,8 +10,7 @@ loop do
 				array[i], array[i + 1] = array[i + 1], array[i]
 				sorted = true
 			end
-			print array
-			puts ""
+			puts array.inspect
 
 		}
 	break unless sorted
